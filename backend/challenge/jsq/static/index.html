@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Abacus mental arithmetic speed calculation</title>
+
+<style type="text/css">
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nocode {
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    font-size: 2em;
+    line-height: 80px;
+}
+
+.code {
+    display: inline-block;
+    color: #ff0000;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    border: 2px solid #e2b4a2;
+    background: #e2b4a2;
+    font-size: 2em;
+}
+
+.input {
+    width: 400px;
+    font-size: 2em;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <span id="code" class="nocode">Mental arithmetic  o.O？</span> <br/>
+    <input type="text" class="input" maxlength="11"/>
+    <br/>
+    <button id="check">cheak</button>
+    <div style="text-align:center;">
+    </div>
+</div>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/code.js"></script>
+
+</body>
+</html>
+
+
+
